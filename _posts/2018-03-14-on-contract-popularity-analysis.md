@@ -74,13 +74,13 @@ As result of this post, we will provide the results provided by the cited paper.
 
 ### Popularity indexes
 
-      In further posts we will talk more about popularity indexes. For this early post we propose already one naive popularity index:
+In further posts we will talk more about popularity indexes. For this early post we propose already one naive popularity index:
 
-      Pi(c) =    TxCount + versions
-               -----------------------
-		        DoA
+Pi(c) =    TxCount + versions
+       -----------------------
+	        DoA
 
-      As you can see, this index does not ponderate the flows of amounts of transacionts. So, even when is good enough for showing a general idea of the popularity in the history of the contract, it does not really ponderate the current popularity. 
+As you can see, this index does not ponderate the flows of amounts of transacionts. So, even when is good enough for showing a general idea of the popularity in the history of the contract, it does not really ponderate the current popularity. 
 
 
 | # | Contract Name     | Pi       |
