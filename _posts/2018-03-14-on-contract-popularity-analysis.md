@@ -1,18 +1,19 @@
-
 ---
 title: A first survey On smart contracts popularity
 author: Santiago Bragagnolo
 layout: post
 ---
 
-	When we are doing research, some times we need to choose representative cases to analyze, to be sure that we get the more representative information. 
-Depending on the kind of study we do we may need to define rankings over different criterias. 
-	In this post we talk about popularity related criterias.
-	How do we know if a contract is popular or not? How do we know what is people using now-a-days in this platform? 
+#  A first survey On smart contracts popularity
 
-	Here we bring a survey based on papers state of the art papers on this subject
+When we are doing research, some times we need to choose representative cases to analyze, to be sure that we get the more representative information. 
+Depending on the kind of study we do we may need to define rankings over different criterias. 
+In this post we talk about popularity related criterias.
+How do we know if a contract is popular or not? How do we know what is people using now-a-days in this platform? 
+
+Here we bring a survey based on papers state of the art papers on this subject
 	
-	Let's first define what are our metrics.
+Let's first define what are our metrics.
 
 
 	
@@ -30,16 +31,16 @@ Depending on the kind of study we do we may need to define rankings over differe
 
 ## Why these criterias are interesting? 
 
-    We can have an over all picture, probably some of these criterias are more obvious than others but, regardless the triviality or complexity we will give a short explanation for each of them.
+We can have an over all picture, probably some of these criterias are more obvious than others but, regardless the triviality or complexity we will give a short explanation for each of them.
 
- ###Tx Count
+###Tx Count
 	This is the amount of transactions over all. This is an obvious first variable to analyze the popularity of a contract, since means how envolved is the ecosystem with this contract. 
 	The most transactions it has, the most popular it is (or it was). 
- ###UT
+###UT
 	The up time (days) is the amount of days of this contract up (functional) of activity is also important as a way to distribute this large amount of transactions. It allow us to calculate an estimated of transactions per day based on our previous variable. 
 	It also speaks about maturity of the contract, and support from the ecosystem. The longuer it lasts, the most consolidated it is into the daily life. 
 	
- ###Deploys
+###Deploys
 	The amount of versions speaks about the addition of new functionalities, it speaks about the owner of hte contract trying to enhance his service, by enhancing quality, security or adding new features.
 	
 
