@@ -4,22 +4,22 @@ author: Santiago Bragagnolo
 layout: post
 ---
 
-	It is not news that the crypto-technologies are spreading faster than a flu. And that they are here to stay a bit longer that just-an-other-hype.
-	The speed is not only the important key, but the immaturity of the technologies, and the amount of information mixed with the typical speculation of a for-profit platform.
+It is not news that the crypto-technologies are spreading faster than a flu. And that they are here to stay a bit longer that just-an-other-hype.
+The speed is not only the important key, but the immaturity of the technologies, and the amount of information mixed with the typical speculation of a for-profit platform.
 	
 
-	It's important, specially now, that the technology is taking form, to keep calm, and systematize. Try to cut this new reality in new pieces, and try to measure to have some better understanding of the reality.
+It's important, specially now, that the technology is taking form, to keep calm, and systematize. Try to cut this new reality in new pieces, and try to measure to have some better understanding of the reality.
 
-	For achieving this propose there are many people around the world working on research and formalizations on different subjects. 
+For achieving this propose there are many people around the world working on research and formalizations on different subjects. 
 
 
-	In this post we will do a quick survey on metrics. The old object-oriented-systems metrics, applied into Smart Contracts (SC) source code.
-	This is a natural first step to do before starting to do blockchain specific metrics: to understand how far we are from what we know. 
-	To use the known metrics for this new world, and understand if they behave as expected or not.
+In this post we will do a quick survey on metrics. The old object-oriented-systems metrics, applied into Smart Contracts (SC) source code.
+This is a natural first step to do before starting to do blockchain specific metrics: to understand how far we are from what we know. 
+To use the known metrics for this new world, and understand if they behave as expected or not.
 
-	For doing this we choosed, for guiding us the paper [Smart Contracs Software Metrics: a First Study] https://www.researchgate.net/publication/322978386_Smart_Contracts_Software_Metrics_a_First_Study. 
+For doing this we choosed, for guiding us the paper [Smart Contracs Software Metrics: a First Study] https://www.researchgate.net/publication/322978386_Smart_Contracts_Software_Metrics_a_First_Study. 
 
-	Let's start by define the metrics commonly analyzed, before presenting some existing results. 
+Let's start by define the metrics commonly analyzed, before presenting some existing results. 
 
 ## Structural metrics
 
@@ -56,14 +56,14 @@ layout: post
 	It is the same a code that has blanks in between functions than other that does not have any blank? Maybe for the compiler. Surely not for me. 
 
 * Blanks
-The blanks are the empty blank lines. This lines are counted because they whisper about two things: 
- - Code quality 
-  Sometimes blanks are related with nice distribution of definitions, sometimes those are related with an intent of clearify a messy code. 
- - Absence of meaning
-  The part of the total lines that are not contributing to the semantic of the contract. Total of lines - blanks = Contributing lines. 
+	The blanks are the empty blank lines. This lines are counted because they whisper about two things: 
+ 	- Code quality 
+  	Sometimes blanks are related with nice distribution of definitions, sometimes those are related with an intent of clearify a messy code. 
+	- Absence of meaning
+	  The part of the total lines that are not contributing to the semantic of the contract. Total of lines - blanks = Contributing lines. 
 * Comments	
- The comments are also a really light metric. We never know what kind of comment we find, if a usage design comment, an explanation for a dark code or a piece of commented code. 
- But then again this contributes to the construction of a category and profile of a contract.
+	 The comments are also a really light metric. We never know what kind of comment we find, if a usage design comment, an explanation for a dark code or a piece of 	commented code. 
+	 But then again this contributes to the construction of a category and profile of a contract.
 
 * ABI
 	The ABI (Abstract binary interface) variable stores the lenght of a contract.
@@ -111,7 +111,7 @@ The blanks are the empty blank lines. This lines are counted because they whispe
 	In human language, it ponderates the cost of executing. For calculating metrics we sumarize all the public functions complexity.
 
 ## Some results
-	The paper  [Smart Contracs Software Metrics: a First Study] https://www.researchgate.net/publication/322978386_Smart_Contracts_Software_Metrics_a_First_Study.  comes up with some really helpful results that we put following
+The paper  [Smart Contracs Software Metrics: a First Study] https://www.researchgate.net/publication/322978386_Smart_Contracts_Software_Metrics_a_First_Study.  comes up with some really helpful results that we put following
 
 |Metric     |Mean |Median| Std |Max |Min| 
 |:---:      |:---: |:---:|:---: |:---:|:---:|
