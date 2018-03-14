@@ -132,11 +132,10 @@ The paper  [Smart Contracs Software Metrics: a First Study] (https://www.researc
 Extracted from the paper: 
 Many minima values reult set to zero, since there are a few contracts withalmost no code.  The results on central tendency measures in Tab.  1 showthat the mean is constantly larger than the median, (almost always of abouttwo third) which is a feature typical of right skewed distributions. One simplereason explaining this fact is the lower bound posed to all the metrics by thefact that they are defined null or positive, while, in principle, large valus arenot bounded.  A little exception is represented by the Bytecode metric whichfeatures values for mean and median very close to each other, suggesting a distribution shape which may be not really skewed.  Standard deviations areall comparable with the mean, meaning a large dispersion of values aroundthe last, but there are not cases where it is much large than the mean or the media 
 
-	
 
 ## Early conclusions 
 
-   This numbers still pretty dead. As it is concluded in [Smart Contracs Software Metrics: a First Study] (https://www.researchgate.net/publication/322978386_Smart_Contracts_Software_Metrics_a_First_Study), even when there are some models that allow us to apply same properties to this domain, we are not yet able to have good predictions and understanding with such small amount of examples. But we can see surely that even when some of this numbers talk with the same voices of the Object Oriented system results, we still having huge gaps and pretty scattered numbers to analyze.  
+   This numbers still pretty dead. As it is concluded in [Smart Contracs Software Metrics: a First Study] (https://www.researchgate.net/publication/322978386_Smart_Contracts_Software_Metrics_a_First_Study), even when there are some models that allow us to apply same properties to this domain, we are not yet able to have good predictions and understanding with such small amount of examples. But we can see surely that even when some of this numbers talk with the same voices of the Object Oriented system results, we still having huge gaps and pretty scattered numbers to analyze.
 
 
 
