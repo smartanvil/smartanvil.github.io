@@ -24,6 +24,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  smartshackle
 
+avatar: assets/images/avatar.png
+icon: assets/images/favicon.ico
+
 # Build settings
 markdown: kramdown
 remote_theme: chrisbobbe/jekyll-theme-prologue
