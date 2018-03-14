@@ -1,5 +1,5 @@
 ---
-title: A First survey on smart contract metrics
+title: On smart contract metrics
 author: Santiago Bragagnolo
 layout: post
 ---

@@ -1,5 +1,5 @@
 ---
-title: A first survey On smart contracts popularity
+title: On smart contracts popularity
 author: Santiago Bragagnolo
 layout: post
 ---
