@@ -17,7 +17,7 @@ In this post we will do a quick survey on metrics. The old object-oriented-syste
 This is a natural first step to do before starting to do blockchain specific metrics: to understand how far we are from what we know. 
 To use the known metrics for this new world, and understand if they behave as expected or not.
 
-For doing this we choosed, for guiding us the paper ![Smart Contracs Software Metrics: a First Study] (https://www.researchgate.net/publication/322978386_Smart_Contracts_Software_Metrics_a_First_Study). 
+For doing this we choosed, for guiding us the paper [Smart Contracs Software Metrics: a First Study] (https://www.researchgate.net/publication/322978386_Smart_Contracts_Software_Metrics_a_First_Study). 
 
 Let's start by define the metrics commonly analyzed, before presenting some existing results. 
 
@@ -111,7 +111,7 @@ Regardless the appearent triviality of many of these metrics, we will give a dee
 	In human language, it ponderates the cost of executing. For calculating metrics we sumarize all the public functions complexity.
 
 ## Some results
-The paper  ![Smart Contracs Software Metrics: a First Study] (https://www.researchgate.net/publication/322978386_Smart_Contracts_Software_Metrics_a_First_Study).  comes up with some really helpful results that we put following
+The paper  [Smart Contracs Software Metrics: a First Study] (https://www.researchgate.net/publication/322978386_Smart_Contracts_Software_Metrics_a_First_Study).  comes up with some really helpful results that we put following
 
 |Metric     |Mean |Median| Std |Max |Min| 
 |:---:      |:---: |:---:|:---: |:---:|:---:|
@@ -136,7 +136,7 @@ Many minima values reult set to zero, since there are a few contracts withalmost
 
 ## Early conclusions 
 
-   This numbers still pretty dead. As it is concluded in ![Smart Contracs Software Metrics: a First Study] (https://www.researchgate.net/publication/322978386_Smart_Contracts_Software_Metrics_a_First_Study), even when there are some models that allow us to apply same properties to this domain, we are not yet able to have good predictions and understanding with such small amount of examples. But we can see surely that even when some of this numbers talk with the same voices of the Object Oriented system results, we still having huge gaps and pretty scattered numbers to analyze.  
+   This numbers still pretty dead. As it is concluded in [Smart Contracs Software Metrics: a First Study] (https://www.researchgate.net/publication/322978386_Smart_Contracts_Software_Metrics_a_First_Study), even when there are some models that allow us to apply same properties to this domain, we are not yet able to have good predictions and understanding with such small amount of examples. But we can see surely that even when some of this numbers talk with the same voices of the Object Oriented system results, we still having huge gaps and pretty scattered numbers to analyze.  
 
 
 
