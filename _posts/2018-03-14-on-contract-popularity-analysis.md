@@ -4,7 +4,7 @@ author: Santiago Bragagnolo
 layout: post
 ---
 
-#  A first survey On smart contracts popularity
+# Introduction
 
 When we are doing research, some times we need to choose representative cases to analyze, to be sure that we get the more representative information. 
 Depending on the kind of study we do we may need to define rankings over different criterias. 
