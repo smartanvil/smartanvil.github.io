@@ -34,19 +34,19 @@ Let's first define what are our metrics.
 We can have an over all picture, probably some of these criterias are more obvious than others but, regardless the triviality or complexity we will give a short explanation for each of them.
 
 ###Tx Count
-	This is the amount of transactions over all. This is an obvious first variable to analyze the popularity of a contract, since means how envolved is the ecosystem with this contract. 
-	The most transactions it has, the most popular it is (or it was). 
+This is the amount of transactions over all. This is an obvious first variable to analyze the popularity of a contract, since means how envolved is the ecosystem with this contract. 
+The most transactions it has, the most popular it is (or it was). 
 ###UT
-	The up time (days) is the amount of days of this contract up (functional) of activity is also important as a way to distribute this large amount of transactions. It allow us to calculate an estimated of transactions per day based on our previous variable. 
-	It also speaks about maturity of the contract, and support from the ecosystem. The longuer it lasts, the most consolidated it is into the daily life. 
+The up time (days) is the amount of days of this contract up (functional) of activity is also important as a way to distribute this large amount of transactions. It allow us to calculate an estimated of transactions per day based on our previous variable. 
+It also speaks about maturity of the contract, and support from the ecosystem. The longuer it lasts, the most consolidated it is into the daily life. 
 	
 ###Deploys
-	The amount of versions speaks about the addition of new functionalities, it speaks about the owner of hte contract trying to enhance his service, by enhancing quality, security or adding new features.
+The amount of versions speaks about the addition of new functionalities, it speaks about the owner of hte contract trying to enhance his service, by enhancing quality, security or adding new features.
 	
 
 
 ## Results
-	As result of this post, we will provide the results provided by the cited paper. In next posts related with this topic we will provide some of our results (yet cooking).
+As result of this post, we will provide the results provided by the cited paper. In next posts related with this topic we will provide some of our results (yet cooking).
 
 | # | Contract Name     | Tx count | DoA      | Deploys |
 |-- |:-----------------:|:--------:|:--------:|:-------:|
