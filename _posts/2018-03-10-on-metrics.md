@@ -2,6 +2,7 @@
 title: On smart contract metrics
 author: Santiago Bragagnolo
 layout: post
+tags: Ethereum Metrics Software-Metrics Quality Smart Contracts Analysis Solidity Crypto  Currency Technology Source Software Research Statistics
 ---
 
 It is not news that the crypto-technologies are spreading faster than a flu. And that they are here to stay a bit longer that just-an-other-hype.

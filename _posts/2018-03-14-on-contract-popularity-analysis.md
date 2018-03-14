@@ -2,6 +2,7 @@
 title: On smart contracts popularity
 author: Santiago Bragagnolo
 layout: post
+tags: Ethereum Popularity Metrics Software-Metrics Smart Contracts Crypto Currency Technology Blockchain Analysis Source Software Research Statistics Quality
 ---
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
