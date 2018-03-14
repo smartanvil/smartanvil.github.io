@@ -10,13 +10,8 @@ When we are doing research, some times we need to choose representative cases to
 Depending on the kind of study we do we may need to define rankings over different criterias. 
 In this post we talk about popularity related criterias.
 How do we know if a contract is popular or not? How do we know what is people using now-a-days in this platform? 
-
-Here we bring a survey based on papers state of the art papers on this subject
-	
 Let's first define what are our metrics.
 
-
-	
 
 ## Popularity metrics
 
