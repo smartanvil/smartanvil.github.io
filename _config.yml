@@ -24,6 +24,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  smartshackle
 
+
+description: SmartShackle Research on Blockchain technologies. Smart Contracts. Source Code Analysis. Data gathering. Data Analysis. Data Mining. Data Metrics.
 avatar: assets/images/avatar.png
 icon: assets/images/favicon.ico
 
