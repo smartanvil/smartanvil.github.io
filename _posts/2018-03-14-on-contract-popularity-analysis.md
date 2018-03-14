@@ -43,7 +43,7 @@ The amount of versions speaks about the addition of new functionalities, it spea
 ## Results
 As result of this post, we will provide the results provided by the cited paper. In next posts related with this topic we will provide some of our results (yet cooking).
 
-| # | Contract Name     | Tx count | DoA      | Deploys |
+| # | Contract Name     | Tx count | UT       | Deploys |
 |-- |:-----------------:|:--------:|:--------:|:-------:|
 | 1 | EtherDelta        | 7203426  | 355      |       4 |
 | 2 | Bitcoinereum      | 1948167  | 112      |       1 |
@@ -73,7 +73,7 @@ In further posts we will talk more about popularity indexes. For this early post
 
 Pi(c) =    TxCount + versions
        -----------------------
-	        DoA
+	         UT
 
 As you can see, this index does not ponderate the flows of amounts of transacionts. So, even when is good enough for showing a general idea of the popularity in the history of the contract, it does not really ponderate the current popularity. 
 
