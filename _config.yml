@@ -28,7 +28,7 @@ github_username:  smartshackle
 description: SmartShackle Research on Blockchain technologies. Ethereum. Bitcoin. Hyperledger fabric. Graph. Smart Contracts. Source Code Analysis. Data gathering. Data Analysis. Data Mining. Data Metrics.
 avatar: assets/images/avatar.png
 icon: assets/images/favicon.ico
-
+cover-photo: assets/images/banner.jpg
 # Build settings
 markdown: kramdown
 remote_theme: chrisbobbe/jekyll-theme-prologue
