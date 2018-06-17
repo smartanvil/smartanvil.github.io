@@ -19,7 +19,7 @@ For addressing this first problematic, we wrote the Smart Inspect paper, along s
 
 Here I leave the paper we published on the last SANER workshop. 
 
-<object data="assets/papers/2018_smart_inspector_saner_ws.pdf" width="1000" height="1000" type='application/pdf'/>
+<object data="../assets/papers/2018_smart_inspector_saner_ws.pdf" width="1000" height="1000" type='application/pdf'/>
 
 
 
