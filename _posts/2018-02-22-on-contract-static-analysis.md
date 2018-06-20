@@ -1,8 +1,8 @@
-
 ---
 title: A first survey On smart contract static analysis 
 author: Santiago Bragagnolo
 layout: post
+tags: Ethereum static analyisis Software-static Quality Smart Contracts static Analysis Solidity Crypto  Currency Technology Source Software Research Statistics
 ---
 
 ## Introduction 
