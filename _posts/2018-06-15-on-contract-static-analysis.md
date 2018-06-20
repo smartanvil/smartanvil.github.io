@@ -9,7 +9,7 @@ tags: Ethereum static analyisis Software-static Quality Smart Contracts static A
 	
 Following the line of understanding our code and understanding what may be an issue in the future (as in the metrics posts) we continue by trying to understand a bit more on the potential issues that a smart contract may have. 
 There is a lot told about the most epic failures on contract development, but epic failures are the result of a sumatory of small problems. 
-In this subject there are some just starting researches such as [SmartCheck: Static analysis of Ethereum Smart Contracts] (http://orbilu.uni.lu/bitstream/10993/35862/1/smartcheck-paper.pdf), from Sergei Tikhomirov, Ekaterina Voskresenskaya, Ivan Ivanitskiy, Ramil Takhaviev, Evgeny Marchenko and Yaroslav Aleksandrov and [Towards analyizing the Complexity Landscape of Solidity Based Ethereum Smart Contracts] from Péter Hegedűs, both presented in WETSEB 2018
+In this subject there are some just starting researches such as [SmartCheck: Static analysis of Ethereum Smart Contracts](http://orbilu.uni.lu/bitstream/10993/35862/1/smartcheck-paper.pdf), from Sergei Tikhomirov, Ekaterina Voskresenskaya, Ivan Ivanitskiy, Ramil Takhaviev, Evgeny Marchenko and Yaroslav Aleksandrov and [Towards analyizing the Complexity Landscape of Solidity Based Ethereum Smart Contracts](#) from Péter Hegedűs, both presented in [WETSEB 2018](http://www.agilegroup.eu/wetseb2018/accepted-papers/)
 And as they do, we care more about the contract development complexity than about the underlying security. 
 
 
@@ -53,7 +53,7 @@ Incomplete numerical representation
 Unsafe type inference
 ----------------------
  Solidity provides, as many other languages, the keyword 'var', used for defining types of variables in terms of the assigned expression. 
- Extracted from  [SmartCheck: Static analysis of Ethereum Smart Contracts] (http://orbilu.uni.lu/bitstream/10993/35862/1/smartcheck-paper.pdf), the following example illustrate pretty well our problem:
+ Extracted from  [SmartCheck: Static analysis of Ethereum Smart Contracts](http://orbilu.uni.lu/bitstream/10993/35862/1/smartcheck-paper.pdf), the following example illustrate pretty well our problem:
 
 	for(var i = 0 ; i < \array.length ; i++)
   
@@ -64,7 +64,7 @@ If this happen, this type inference will lead us to an overflow, and maybe to an
 
 Using scope 
 -----------
-  Solidity provides a nice functionality to extend native and non-native types, in the fashion of scoped traits [cite].
+  Solidity provides a nice functionality to extend native and non-native types, in the fashion of scoped traits.
   The clause <<for 'TypeName' using 'Library'>>. To understand the types and the scope of them is pretty important to ensure the expected behaviour. 
   
 
@@ -82,7 +82,6 @@ With the idea of gas, and execution fee, we have to keep track of the code we ty
     * Ensure to control the breaking condition
     * Ensure to not use external calls into
     * Ensure the usage of break in searches
-[CHECK]
   - Recursive calls. The other reason for the GAS system are the recursive calls. 
     * Ensure to know your recursive calls
     * Ensure the base case
@@ -91,7 +90,6 @@ Those little annoying details
 -----------------------------
   - The compiler version pragma uses fixed and unfixed version:	^ 0.4.1 vs 0.4.1
     * Ensure to know your pragma.
-[CHECK]
     * On unfixed versions, ensure that your code is easy to compile.
     * On fixed versions, ensure that your version is maintained.
   - The modifiers. 
@@ -99,8 +97,8 @@ Those little annoying details
   
 
 ### Etiquette
-	In this section we address the nomenclatures and other etiquette definitions 
-  Solidity as many other languages has it's style guide. The style of your code is like the code of a party. A code with wrong style looks as embarrasing as your suit at the your mother law's spring hippie party.
+ In this section we address the nomenclatures and other etiquette definitions .
+ Solidity as many other languages has it's style guide. The style of your code is like the code of a party. A code with wrong style looks as embarrasing as your suit at the your mother law's spring hippie party.
 
    - Variable naming
    - Functions naming
@@ -174,7 +172,7 @@ Those little annoying details
 ## On the numbers
 
  Finally in this section we will provide the different numbers that we got from this different papers. And, we hope to be able soon to have a new post with our own tool numbers.
-From [SmartCheck: Static analysis of Ethereum Smart Contracts] (http://orbilu.uni.lu/bitstream/10993/35862/1/smartcheck-paper.pdf)
+From [SmartCheck: Static analysis of Ethereum Smart Contracts](http://orbilu.uni.lu/bitstream/10993/35862/1/smartcheck-paper.pdf)
 
 | Severity       | Pattern       |  Kind | Findings |  % of all |
 | -------------  |:-------------:|:-------------:|:-------------:|:-------------:| 
